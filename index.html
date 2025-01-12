@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>калькулятор</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="outer">
+        <div class="centred">
+            <input type="text" id="num1" placeholder="число 1 ">
+            
+            <input type="text" list="options" id="list">
+            <datalist id="options">
+             <option value="+"></option>
+             <option value="-"></option>
+             <option value="*"></option>
+             <option value="/"></option>
+            </datalist>
+            <input type="text" id="num2" placeholder="число 2 ">
+        </div>
+        <div class="centred">
+            <button type="button" id="convert">
+                расчитать
+            </button>
+            <input type="text" id="result" placeholder="результат">
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
