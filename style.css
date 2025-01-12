@@ -28,8 +28,10 @@ button{
 #list{
     
     font-size: 40px;
-    max-width:  100px;
+    width:  50px;
+    height: 60px;
     color: black;
+    border-radius: 10px;
 }
 
 #num1,
@@ -52,7 +54,7 @@ button:hover{
     max-width: 250px;
  }
  #list{
-    max-width:  100px;
+    max-width:  50px;
 
 }
 }
@@ -63,5 +65,15 @@ button:hover{
     }
     #result{
        max-width: 160px;
+    }
+   }
+
+   @media (max-width: 320px) {
+    #num1,
+    #num2{
+       max-width:60px;
+    }
+    #result{
+       max-width: 170px;
     }
    }
